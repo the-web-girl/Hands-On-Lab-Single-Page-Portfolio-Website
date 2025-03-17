@@ -86,6 +86,7 @@ h2 {
 
 .container {
   display: flex;
+  margin: 50px;
 }
 
 /* About Me */
@@ -106,12 +107,18 @@ h2 {
   color: rgb(128, 128, 128);
   margin-top: -1cm;
 }
+.about--me {
+    padding: 0 50px;
+}
 
 .profile_image {
-  width: 550px;
+  /* width: 550px; */
+  width: 300px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
+
+  /* margin-top:100px; */
 }
 
 /* Skills */
