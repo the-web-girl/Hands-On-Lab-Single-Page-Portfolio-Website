@@ -121,6 +121,15 @@ h2 {
   /* margin-top:100px; */
 }
 
+/* Breakpoints */
+@media screen and (max-width:912px ) {
+    #about-me {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        width: 100%;
+    }
+  }
 /* Skills */
 
 .all_skills {
